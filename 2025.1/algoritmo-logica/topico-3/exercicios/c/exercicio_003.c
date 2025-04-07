@@ -15,10 +15,10 @@ int main(void)
     else if (idade > 15 && idade < 22)
         printf("Adolescente.");
 
-    else if (idade > 22 && idade < 60)
+    else if (idade >= 22 && idade < 60)
         printf("Adulto.");
 
-    else if (idade > 60)
+    else if (idade >= 60)
         printf("Idoso.");
 
     else
