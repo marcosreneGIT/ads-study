@@ -12,7 +12,7 @@ int main(void)
     if (idade >= 0 && idade < 16)
         printf("Crianca.");
 
-    else if (idade > 15 && idade < 22)
+    else if (idade >= 16 && idade < 22)
         printf("Adolescente.");
 
     else if (idade >= 22 && idade < 60)
