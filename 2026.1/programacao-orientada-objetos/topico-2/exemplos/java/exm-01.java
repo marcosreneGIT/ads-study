@@ -17,3 +17,5 @@ public class Pessoa{
         tenho " + this.idade + "anos e sou" + this.profissao);
     }
 }
+
+//exm-02 ...
