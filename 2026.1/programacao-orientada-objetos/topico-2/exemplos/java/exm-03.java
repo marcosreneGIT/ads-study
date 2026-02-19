@@ -3,7 +3,32 @@ public class Casa{
     double area;
 
     public Casa(){
-        System.out.println("Criando uma nova casa.");
+        this.area = 0;
+        this.endereco = "Nenhum";
+
+        // this.(0.0, "Nenhum")
+    }
+
+    public Casa(double a){
+        this.arae = a;
+        this.endereco = "Nenhum";
+
+        // this.(a, "Nenhum")
+    }
+
+    public Casa(String e){
+        this.area = 0;
+        this.endereco = e;
+
+        // this.(0.0, e)
+
+    }
+
+    public Casa(double a, String e){
+        this.area = a;
+        this.endereco = e;
+
+        // this.(a, e)
     }
 }
 
