@@ -1,0 +1,18 @@
+/* retrato */
+
+@media screen and (orientation: portrait) {
+    .coluna1{
+        background-color: red;
+    }
+    
+}
+
+/* paisagem */
+@media screen and (orientation: landscape){
+    .coluna1{
+        background-color: yellow;
+    }
+    .coluna2{
+        display: none;
+    }
+}
