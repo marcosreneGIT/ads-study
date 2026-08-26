@@ -1,0 +1,17 @@
+@media screen and (min-width: 1024px){
+    .coluna1{
+        width: 30%;
+        background-color: red;
+    }
+    .coluna2{
+
+        width: 60%;
+        background-color: red;
+    }
+    .coluna3{
+   
+        width: 10%;
+        background-color: red;
+    }
+    
+}
