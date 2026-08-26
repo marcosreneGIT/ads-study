@@ -1,0 +1,10 @@
+@media screen and (max-width: 780px){
+    .coluna1, .coluna2{
+        float: left;
+        width: 50%;
+        background-color: rgb(255, 0, 0);
+    }
+    .coluna3{
+        display: none;
+    }
+}
